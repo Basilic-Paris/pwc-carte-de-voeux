@@ -1,0 +1,23 @@
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 2vw 2vw black;
+  @media (orientation: portrait) {
+    box-shadow: 0 0 5vw 5vw black;
+  }
+}
+
+#pwc_logo{
+  width: 10vw;
+  @media (orientation: portrait) {
+    width: 20vw;
+  }
+}
+
+#strategy_logo{
+  width: 15vw;
+  @media (orientation: portrait) {
+    width: 25vw;
+  }
+}
